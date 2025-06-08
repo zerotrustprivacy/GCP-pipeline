@@ -2,6 +2,9 @@
  ### Building a pipeline that continuously ingests simulated patient telemetry data, processes it in real-time, and lands the aggregated data into BigQuery for immediate analysis.
 ### Using Google Cloud Pub/Sub, the script (streaming_pipeline.py) takes the messages and pushes them into Dataflow to be transformed into a JSON schema
 ### The transformed data can then be quickly analyzed within BigQuery using SQL
+
+![image](https://github.com/user-attachments/assets/a52919eb-751d-4ad1-b429-3b00bf36460f)
+
 <p>
  <ul>
   <p>GCP Services Used:</p>
