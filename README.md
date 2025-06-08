@@ -1,6 +1,7 @@
 # Real Time Data Streaming and Analysis
  ### Building a pipeline that continuously ingests simulated patient telemetry data, processes it in real-time, and lands the aggregated data into BigQuery for immediate analysis.
-### Using Google Cloud Pub/Sub, the script takes the messages and pushes it into Dataflow to be transformed into a format that is usable for BigQuery
+### Using Google Cloud Pub/Sub, the script takes the messages and pushes them into Dataflow to be transformed into a JSON schema
+### The transformed data can then be quickly analyzed within BigQuery using SQL
 <p>
  <ul>
   <p>GCP Services Used:</p>
