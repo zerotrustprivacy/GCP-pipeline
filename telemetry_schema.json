@@ -1,0 +1,9 @@
+[
+  {"name": "start_time", "type": "TIMESTAMP", "mode": "REQUIRED"},
+  {"name": "end_time", "type": "TIMESTAMP", "mode": "REQUIRED"},
+  {"name": "patient_id", "type": "STRING", "mode": "REQUIRED"},
+  {"name": "avg_heart_rate", "type": "FLOAT", "mode": "NULLABLE"},
+  {"name": "min_heart_rate", "type": "INTEGER", "mode": "NULLABLE"},
+  {"name": "max_heart_rate", "type": "INTEGER", "mode": "NULLABLE"},
+  {"name": "num_readings", "type": "INTEGER", "mode": "NULLABLE"}
+]
